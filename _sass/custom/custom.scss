@@ -1,0 +1,55 @@
+// for navigation list
+.nav-list .nav-list-item > .nav-list .nav-list-item .nav-list-link {
+  // when text length is over the list, substitute for '...'
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+// for code space
+code {
+  font-family: 'D2Coding', 'Consolas', 'Courier New', Courier, monospace;
+  font-size: 0.87em;
+}
+
+// for solution tab
+.code-example p {
+  text-indent: 0.75rem;
+  font-size: 0.95em;
+}
+
+.code-example p img {
+  text-indent: 0;
+}
+
+// for callout
+p.note-title > p:first-child, blockquote.note-title > p:first-child {
+  font-size: 1.125em;
+  line-height: 1.4;
+  margin-bottom: 10pt;
+  text-indent: 2pt;
+}
+
+// for custom labels
+.label-bronze:not(g),
+.label-silver:not(g),
+.label-gold:not(g),
+.label-platinum:not(g) {
+  color: $grey-lt-100;
+}
+
+.label-bronze:not(g) {
+  background-color: #AD5600;
+}
+
+.label-silver:not(g) {
+  background-color: #435F7A;
+}
+
+.label-gold:not(g) {
+  background-color: #EC9A00;
+}
+
+.label-platinum:not(g) {
+  background-color: #27E2A4;
+}

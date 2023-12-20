@@ -1,0 +1,25 @@
+title: Study materials
+description: Description
+theme: just-the-docs
+
+url: https://rama4769.github.io
+
+aux_links:
+  Template Repository: https://github.com/rama4769/rama4769.github.io
+
+callouts_level: quiet
+callouts:
+  highlight:
+    color: yellow
+  important:
+    title: Important
+    color: blue
+  new:
+    title: New
+    color: green
+  note:
+    title: Note
+    color: purple
+  warning:
+    title: Warning
+    color: red
